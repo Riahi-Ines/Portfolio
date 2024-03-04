@@ -195,36 +195,26 @@ h1{
     margin-top: 10px !important;
     margin-left: 0px !important;
   }
+
 }
-@media (max-width: 311px) {
- ::ng-deep .section-title {
+@media (max-width: 300px) {
+
+  ::ng-deep .section-title {
     letter-spacing: 0px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
-h1{
+ h1{
     font-size: 2.5em;
 }
+.hero-subtitle {letter-spacing: 1px;}
 .btn {
 
   letter-spacing: 1px;
   padding: 7px 5px;
 }
+
 }
 
-@media (max-width: 236px) {
-  ::ng-deep .section-title {
-     letter-spacing: 0px;
-     font-size: 1.5em;
- }
- h1{
-     font-size: 2.5em;
- }
- .btn {
-
-   letter-spacing: 1px;
-   padding: 7px 5px;
- }
- }
 
 /******************* animation for welcoming  ******************/
 
