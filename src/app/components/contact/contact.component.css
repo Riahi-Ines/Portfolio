@@ -51,7 +51,7 @@
 
 .card{
   display: block !important;
-  border: none a!important;
+  border: none !important;
 }
 
 .container .card .icon .fa {
@@ -154,7 +154,7 @@ i {
       justify-content: center !important;
     }
   }
-  @media (max-width: 311px) {
+  @media (max-width: 400px) {
     .container .card .face.face2 .content h3 {
 
     font-size: 16px;
