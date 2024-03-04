@@ -1,0 +1,65 @@
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: -10;
+}
+
+
+.title {
+  overflow: hidden;
+  height: auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--contrast-color);
+    transform: translateY(100px);
+    animation: slideUp .8s ease forwards .5s;
+    color: hsl(301.39deg 19.27% 75.47%);
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(500px) scale(.2);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+::ng-deep .navbar{
+  visibility: hidden !important;
+}
+
+::ng-deep .footer {
+  visibility: hidden !important;
+}
+.container_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; /* Optional: set a minimum height to fill the viewport */
+}

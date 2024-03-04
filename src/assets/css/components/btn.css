@@ -1,0 +1,48 @@
+/*-----------------------------------*\
+  #btn.css
+\*-----------------------------------*/
+
+/**
+ *
+ */
+
+
+
+
+
+.btn {
+  background-color: hsl(245.87deg 100% 58.73% / 75%);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-500);
+  text-transform: uppercase;
+  max-width: max-content;
+  letter-spacing: 2px;
+  padding: 10px 22px;
+  box-shadow: 6px 6px 0 -1px var(--shadow-color, var(--jet));
+  transition: var(--transition-1);
+}
+
+.btn:is(:hover, :focus-visible) {
+  background-color: var(hsla(0, 0%, 100%, 0.75), var(--jet));
+  box-shadow: 5px 5px 0 -2px var(--hover-shadow-color, white);
+}
+
+.btn-primary,
+.btn-secondary { color: var(--white); }
+
+.btn-secondary {
+  background-color: white;
+  --shadow-color: white;
+  --hover-bg: white;
+  --hover-shadow-color: hsl(245.87deg 100% 58.73% / 75%);
+}
+
+.btn-tertiary {
+  color: hsl(245.87deg 100% 58.73% / 75%);
+  background-color: white;
+  --shadow-color: white;
+  --hover-bg: white;
+  --hover-shadow-color: white;
+}
+
+.btn-tertiary:is(:hover, :focus-visible) { color: var(--white); }
