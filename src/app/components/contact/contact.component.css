@@ -154,3 +154,13 @@ i {
       justify-content: center !important;
     }
   }
+  @media (max-width: 311px) {
+    .container .card .face.face2 .content h3 {
+
+    font-size: 16px;
+}
+.container .card .face.face2 .content  {
+
+  font-size: 14px;
+}
+ }
