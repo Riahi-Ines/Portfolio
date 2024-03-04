@@ -201,7 +201,7 @@ h1{
     letter-spacing: 0px;
     font-size: 2em;
 }
-.h1{
+h1{
     font-size: 2.5em;
 }
 .btn {
@@ -210,6 +210,21 @@ h1{
   padding: 7px 5px;
 }
 }
+
+@media (max-width: 236px) {
+  ::ng-deep .section-title {
+     letter-spacing: 0px;
+     font-size: 1.5em;
+ }
+ h1{
+     font-size: 2.5em;
+ }
+ .btn {
+
+   letter-spacing: 1px;
+   padding: 7px 5px;
+ }
+ }
 
 /******************* animation for welcoming  ******************/
 
