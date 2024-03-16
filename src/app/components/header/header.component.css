@@ -65,9 +65,7 @@
         position: relative;
         height: 84px !important;
     }
-    .btn{
-      visibility: hidden;
-    }
+   
     .navbar-container input[type="checkbox"]{
         position: absolute;
         display: block;
